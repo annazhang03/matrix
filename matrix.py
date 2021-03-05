@@ -1,12 +1,3 @@
-"""
-A matrix will be an N sized list of 4 element lists.
-Each individual list will represent an [x, y, z, 1] point.
-For multiplication purposes, consider the lists like so:
-x0  x1      xn
-y0  y1      yn
-z0  z1  ... zn
-1  1        1
-"""
 import math
 
 #print the matrix such that it looks like

@@ -8,25 +8,25 @@ color = [ 0,255,255 ]
 # test matrix functions
 m1 = new_matrix()
 m2 = new_matrix(cols=0)
-print("Testing add_edge. Adding (1, 2, 3), (4, 5, 6). m2 =")
+print("Testing add_edge... adding (1, 2, 3), (4, 5, 6). m2 =")
 add_edge(m2, 1, 2, 3, 4, 5, 6)
 print_matrix(m2)
 
-print("Testing ident. m1 =")
+print("Testing ident... m1 =")
 ident(m1)
 print_matrix(m1)
 
-print("Testing Matrix mult. m1 * m2 =")
+print("Testing matrix_mult... m1 * m2 =")
 matrix_mult(m1, m2)
 print_matrix(m2)
 
 m1 = new_matrix(cols=0)
 add_edge(m1, 1, 2, 3, 4, 5, 6)
 add_edge(m1, 7, 8, 9, 10, 11, 12)
-print("Testing Matrix mult. m1 =")
+print("Testing add_edge... m1 =")
 print_matrix(m1)
 
-print("Testing Matrix mult. m1 * m2 =")
+print("Testing matrix_mult... m1 * m2 =")
 matrix_mult(m1, m2)
 print_matrix(m2)
 
@@ -110,7 +110,7 @@ add_edge(edges, 265, 202, 0, 240, 191, 0)
 add_edge(edges, 275, 200, 0, 250, 189, 0)
 add_edge(edges, 305, 195, 0, 280, 184, 0)
 
-# music stand
+# stand
 add_edge(edges, 150, 250, 0, 200, 241, 0)
 add_edge(edges, 250, 232, 0, 315, 220, 0)
 add_edge(edges, 315, 220, 0, 305, 215, 0)

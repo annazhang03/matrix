@@ -5,7 +5,6 @@ import numpy as np
 def draw_lines( matrix, screen, color ):
     n = len(matrix[0]) - (len(matrix[0]) % 2)
     for i in range(0, n, 2):
-        #if i % 2 == 0 and i + 1 < n:
         draw_line(matrix[0][i], matrix[1][i], matrix[0][i+1], matrix[1][i+1], screen, color)
 
 def add_edge( matrix, x0, y0, z0, x1, y1, z1 ):
