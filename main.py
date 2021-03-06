@@ -107,7 +107,7 @@ add_edge(edges, 215, 211, 0, 190, 200, 0)
 add_edge(edges, 225, 209, 0, 200, 198, 0)
 add_edge(edges, 255, 204, 0, 230, 193, 0)
 add_edge(edges, 265, 202, 0, 240, 191, 0)
-add_edge(edges, 275, 200, 0, 250, 189, 0)
+add_edge(edges, 295, 197, 0, 270, 186, 0)
 add_edge(edges, 305, 195, 0, 280, 184, 0)
 
 # stand
